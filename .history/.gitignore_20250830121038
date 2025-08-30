@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Virtual environments
+task-venv/
+tasks/task-01/venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.mp3
+*.wav
+*.mp4
+*.mid
+*.midi
+*.xml
+*.musicxml
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Keep sample files
+!tasks/*/samples/*.mp3
+!tasks/*/samples/*.wav
+
+# Temp files
+temp/
+tmp/
+cache/
+
+# Model weights
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+*.md

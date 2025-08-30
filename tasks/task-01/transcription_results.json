@@ -1,0 +1,20 @@
+[
+  {
+    "file": "tasks/task-01/samples/sample.mp3",
+    "error": "predict_and_save() got an unexpected keyword argument 'model_path'",
+    "time_seconds": 0,
+    "note_count": 0
+  },
+  {
+    "file": "tasks/task-01/samples/live_piano.mp3",
+    "error": "predict_and_save() got an unexpected keyword argument 'model_path'",
+    "time_seconds": 0,
+    "note_count": 0
+  },
+  {
+    "file": "tasks/task-01/samples/youtube_piano.mp3",
+    "error": "predict_and_save() got an unexpected keyword argument 'model_path'",
+    "time_seconds": 0,
+    "note_count": 0
+  }
+]

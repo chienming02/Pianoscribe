@@ -1,0 +1,5 @@
+basic-pitch
+music21
+pydub
+yt-dlp
+tqdm
