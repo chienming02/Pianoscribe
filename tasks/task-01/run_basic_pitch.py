@@ -24,8 +24,10 @@ def transcribe_file(audio_path, output_directory):
         [audio_path],
         output_directory,
         save_midi=True,
+        sonify_midi=False,
         save_model_outputs=True,
-        save_notes=True
+        save_notes=True,
+        model_or_model_path=ICASSP_2022_MODEL_PATH
     )
     
     elapsed = time.time() - start_time

@@ -1,20 +1,20 @@
 [
   {
     "file": "tasks/task-01/samples/sample.mp3",
-    "error": "predict_and_save() got an unexpected keyword argument 'model_path'",
-    "time_seconds": 0,
-    "note_count": 0
+    "time_seconds": 4.915786027908325,
+    "note_count": 1110,
+    "output_dir": "tasks/task-01/outputs/sample"
   },
   {
     "file": "tasks/task-01/samples/live_piano.mp3",
-    "error": "predict_and_save() got an unexpected keyword argument 'model_path'",
-    "time_seconds": 0,
-    "note_count": 0
+    "time_seconds": 2.8668057918548584,
+    "note_count": 1116,
+    "output_dir": "tasks/task-01/outputs/live_piano"
   },
   {
     "file": "tasks/task-01/samples/youtube_piano.mp3",
-    "error": "predict_and_save() got an unexpected keyword argument 'model_path'",
-    "time_seconds": 0,
-    "note_count": 0
+    "time_seconds": 1.7962067127227783,
+    "note_count": 440,
+    "output_dir": "tasks/task-01/outputs/youtube_piano"
   }
 ]
