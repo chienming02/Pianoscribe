@@ -65,6 +65,8 @@ logs/
 *.sqlite
 *.sqlite3
 
-*.md
+# Documentation
+!*.md
 !README.md
 .claude
+.history/

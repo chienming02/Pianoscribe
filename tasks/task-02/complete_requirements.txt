@@ -1,0 +1,61 @@
+# Complete requirements for Pianoscribe project (Tasks 1-2)
+# Python 3.11 environment (conda create -n pianoscribe python=3.11)
+
+# Core Audio Processing
+librosa>=0.11.0
+soundfile>=0.13.0
+scipy>=1.16.0
+numpy>=1.26.0
+resampy>=0.4.3
+audioread>=3.0.0
+
+# Transcription Models
+basic-pitch>=0.3.0  # Spotify's model
+crepe>=0.0.16       # Monophonic pitch detection
+note-seq>=0.0.5     # Google's note sequence tools
+
+# MIDI and Music
+pretty-midi>=0.2.10
+midiutil>=1.2.1
+music21>=9.7.0
+mido>=1.3.3
+
+# Machine Learning
+tensorflow>=2.16.0  # For Basic Pitch
+tensorflow-datasets>=4.9.0
+transformers>=4.55.0  # For future transformer models
+scikit-learn>=1.7.0
+hmmlearn>=0.3.3  # For CREPE
+
+# Visualization and Analysis
+matplotlib>=3.10.0
+seaborn>=0.13.0
+pandas>=2.2.0
+mir_eval>=0.8.0  # For evaluation metrics
+
+# Utilities
+tqdm>=4.66.0
+joblib>=1.5.0
+h5py>=3.11.0
+imageio>=2.33.0
+
+# Web/YouTube
+yt-dlp>=2025.8.0
+requests>=2.32.0
+
+# Audio playback
+pydub>=0.25.1
+simpleaudio>=1.0.4
+
+# Development tools
+jupyter>=1.0.0
+ipykernel>=6.30.0
+
+# Optional (for specific features)
+# ffmpeg-python>=0.2.0  # Requires ffmpeg binary
+# opencv-python>=4.11.0  # For video processing
+
+# Failed installations (need Linux/Docker):
+# magenta>=2.1.0  # Onsets & Frames - build failures on Windows
+# mt3  # Not available as pip package
+# python-rtmidi  # Build failures on Windows/Python 3.12
